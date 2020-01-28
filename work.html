@@ -11,11 +11,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: #F0F2EF;
+            background-color: white;
         }
         footer {
             background-color: white;
-            height:100vh;
         }
         #whatIKnow {
             border-left: 1px solid rgba(0,0,0,.125);
@@ -26,6 +25,10 @@
         }
         .navbar {
             background-color: #AFD5AA;
+        }
+        .background {
+            width: 100%;
+            background-color: #F0F2EF;
         }
         @media screen and (max-width:767px) {
             #whatIKnow {
@@ -47,9 +50,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-                
-                    
-                </div>
                 <ul class="navbar-nav ml-auto mt-lg-0">
                     <!-- In each list item (li) is where your links go -->
                     <li class="nav-item">
@@ -68,97 +68,99 @@
             </div>
         </div>
     </nav>
-    <!-- The container contains all of your body content -->
-    <main class="container">
-        <div class="row">
-            <!-- This colum takes up 75% of the page-->
-            <div class="col-lg-8 col-md-8 mt-3 mb-3">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <header><h1>My Work</h1></header>
-                    </div>
-                </div>
-                <!-- This is the first entry of your projects -->
-                <div class="row mt-3">
-                    <div class="col-lg-4 col-md-12">
-                        <div>
-                            <img src="assets/images/default-image.jpg" alt="My Project Image" width="100%" height="auto">
+    <div class="background">
+        <!-- The container contains all of your body content -->
+        <main class="container">
+            <div class="row">
+                <!-- This colum takes up 75% of the page-->
+                <div class="col-lg-8 col-md-8 mt-3 mb-3">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <header><h1>My Work</h1></header>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12">
-                        <h3>Project Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. </p>
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 text-right">
-                        <a href="#" class="btn btn-secondary btn-md">View</a>
-                    </div>
-                </div>
-                <!-- This is a horizontal rule, which is used to divide content -->
-                <hr>
-                <!-- This is the second entry of your projects -->
-                <div class="row mt-3">
-                    <div class="col-lg-4 col-md-12">
-                        <div>
-                            <img src="assets/images/default-image.jpg" alt="My Project Image" width="100%" height="auto">
+                    <!-- This is the first entry of your projects -->
+                    <div class="row mt-3">
+                        <div class="col-lg-4 col-md-12">
+                            <div>
+                                <img src="assets/images/default-image.jpg" alt="My Project Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Project Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. </p>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-12">
-                        <h3>Project Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. </p>
-                        
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="#" class="btn btn-secondary btn-md">View</a>
+                        </div>
+                    </div>
+                    <!-- This is a horizontal rule, which is used to divide content -->
+                    <hr>
+                    <!-- This is the second entry of your projects -->
+                    <div class="row mt-3">
+                        <div class="col-lg-4 col-md-12">
+                            <div>
+                                <img src="assets/images/default-image.jpg" alt="My Project Image" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <h3>Project Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. </p>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <a href="#" class="btn btn-secondary btn-md">View</a>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 text-right">
-                        <a href="#" class="btn btn-secondary btn-md">View</a>
+                <!-- This column takes up 25% of the page-->
+                <div class="col-lg-4 col-md-4 col-sm-12" id="whatIKnow">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2><strong>What I know:</strong></h2>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!-- This column takes up 25% of the page-->
-            <div class="col-lg-4 col-md-4 col-sm-12" id="whatIKnow">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2><strong>What I know:</strong></h2>
+                    <!-- This is your first entry-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            
+                            <h5>OS:</h5>
+                            <p>MacOS/Windows/Linux</p>
+                        </div>
                     </div>
-                </div>
-                <!-- This is your first entry-->
-                <div class="row">
-                    <div class="col-sm-12">
-                        
-                        <h5>OS:</h5>
-                        <p>MacOS/Windows/Linux</p>
-                    </div>
-                </div>
-                <!-- This is your second entry-->
-                <div class="row">
-                    <div class="col-sm-12">
+                    <!-- This is your second entry-->
+                    <div class="row">
+                        <div class="col-sm-12">
 
-                        <h5>Code Editor:</h5>
-                        <p>Atom/VSCode</p>
+                            <h5>Code Editor:</h5>
+                            <p>Atom/VSCode</p>
+                        </div>
                     </div>
-                </div>
-                <!-- This is your third entry -->
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h5>Technologies:</h5>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Bootstrap 4</li>
-                        </ul>
+                    <!-- This is your third entry -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5>Technologies:</h5>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap 4</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </aside>
-        </div>
-    </main>
+                </aside>
+            </div>
+        </main>
+    </div>
     <footer class="footer">
         <div id="footerContent">
             <!-- This is a horizontal rule. It creates a line that spans across the whole page -->
-            <p class="text-center">Page created by Firstname Lastname. &copy; 2020.</p>
+            <p class="text-center mt-3">Page created by Firstname Lastname. &copy; 2020.</p>
         </div>
     </footer>
 </body>

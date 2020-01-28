@@ -11,17 +11,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: #F0F2EF;
+            background-color: white;
         }
         footer {
             background-color: white;
-            height:100vh;
         }
         #myLinks {
             max-width:450px;
         }
         .navbar {
             background-color: #AFD5AA;
+        }
+        .background {
+            width: 100%;
+            background-color: #F0F2EF;
         }
         .list-group-item, .list-group-item.disabled {
             background-color: #f1f2ef;
@@ -63,56 +66,56 @@
             </div>
         </div>  
     </nav>
-    <!-- The container contains the grid, which is where you will want to place all of your body content. The grid has 12 columns per row. One full row of content is 12 columns. 2 content columns are 6 each. 4 content columns are 3 per. And 6 content columns are 2 each. See: https://getbootstrap.com/docs/4.0/layout/overview/
-        
-    <Main> tags are like <div> tags but tell google what kind of content is inside. Only 1 main tag per page. -->
-    <main class="container mt-3">
-        <div class="row">
-             <!-- This column takes up 50% of the page:
-            Note: Columns in a row need to add up to 12! --> 
-            <div class="col-md-6 col-sm-12">
-                <!-- <Header> tags are like <div> tags, but tell google what kind of content is inside. This is called Semantic HTML. Only 1 header tag per page. -->
-                <header><h1>Welcome to My Portfolio!</h1></header>
-                <div id="aboutMe">
-                    <!-- Heading tags, or <H#> tags, are not the same as <Header>. They go from H1-H6 in order of what is important on your page. Typically, you will have 1 <h1> tag on a page, and multiple h2-h6 tags depending on your content. -->
-                    <h3>About Me</h3>
-                    <!-- The <p> tag is used to designate paragraphs of text -->
-                    <p class="myText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras mi augue, dictum in leo ut, fringilla mollis quam.
-                    </p>
-                    <h3>My Projects</h3>
-                    <p class="myText">
-                        Nothing to see here...yet!
-                    </p>
+    <div class="background">
+        <!-- The container contains the grid, which is where you will want to place all of your body content. The grid has 12 columns per row. One full row of content is 12 columns. 2 content columns are 6 each. 4 content columns are 3 per. And 6 content columns are 2 each. See: https://getbootstrap.com/docs/4.0/layout/overview/  
+        <Main> tags are like <div> tags but tell google what kind of content is inside. Only 1 main tag per page. -->
+        <main class="container">
+            <div class="row">
+                <!-- This column takes up 50% of the page:
+                Note: Columns in a row need to add up to 12! --> 
+                <div class="col-md-6 col-sm-12 mt-3">
+                    <!-- <Header> tags are like <div> tags, but tell google what kind of content is inside. This is called Semantic HTML. Only 1 header tag per page. -->
+                    <header><h1>Welcome to My Portfolio!</h1></header>
+                    <div id="aboutMe">
+                        <!-- Heading tags, or <H#> tags, are not the same as <Header>. They go from H1-H6 in order of what is important on your page. Typically, you will have 1 <h1> tag on a page, and multiple h2-h6 tags depending on your content. -->
+                        <h3>About Me</h3>
+                        <!-- The <p> tag is used to designate paragraphs of text -->
+                        <p class="myText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras mi augue, dictum in leo ut, fringilla mollis quam.
+                        </p>
+                        <h3>My Projects</h3>
+                        <p class="myText">
+                            Nothing to see here...yet!
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <!-- This column takes up 50% of the page-->
-            <div class="col-md-6 col-sm-12">
-                <div id="myImage">
-                    <!-- This is an image tag. Add a description of your image to the alt tag so that Google know what the image is. -->
-                    <img src="assets/images/default-image.jpg" alt="Firstname Lastname Profile Image" height="auto" width="100%">
-                </div>
-                <div id="myLinks">
-                    <!-- This is a list group. Even though we are not using <ol>, <ul>, or <li> we can still create a list group using classes. See: https://getbootstrap.com/docs/4.0/components/list-group/-->
-                    <div class="list-group list-group-flush mt-2">
-                        <!-- These are list items. -->
-                        <a href="https://github.com/yourName" class="list-group-item list-group-item-action">
-                            github.com/yourName
-                        </a>
-                        <a href="https://linkedin.com/in/yourName" target="_blank" class="list-group-item list-group-item-action">linkedin.com/in/yourName</a>
-                        <a href="mailto:youremail@domain.tld?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action">youremail@domain.tld</a>
-                        <a href="tel:5555551212" class="list-group-item list-group-item-action">(555) 555-1212</a>
+                <!-- This column takes up 50% of the page-->
+                <div class="col-md-6 col-sm-12 mt-3 mb-3">
+                    <div id="myImage">
+                        <!-- This is an image tag. Add a description of your image to the alt tag so that Google know what the image is. -->
+                        <img src="assets/images/default-image.jpg" alt="Firstname Lastname Profile Image" height="auto" width="100%">
+                    </div>
+                    <div id="myLinks">
+                        <!-- This is a list group. Even though we are not using <ol>, <ul>, or <li> we can still create a list group using classes. See: https://getbootstrap.com/docs/4.0/components/list-group/-->
+                        <div class="list-group list-group-flush mt-2">
+                            <!-- These are list items. -->
+                            <a href="https://github.com/yourName" class="list-group-item list-group-item-action">
+                                github.com/yourName
+                            </a>
+                            <a href="https://linkedin.com/in/yourName" target="_blank" class="list-group-item list-group-item-action">linkedin.com/in/yourName</a>
+                            <a href="mailto:youremail@domain.tld?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action">youremail@domain.tld</a>
+                            <a href="tel:5555551212" class="list-group-item list-group-item-action">(555) 555-1212</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div> 
     <!-- This is a <footer> tag which is another semantic HTML tag that tells google that the content inside is the last part of the website layout. We add a class of mt-3 which stands for margin-top, and how far from the top we put the margin. This number can go from 1-5. --->
-    <footer class="mt-3">
+    <footer>
         <div id="footerContent">
             <!-- This is a horizontal rule. It creates a line that spans across the whole page -->
-            <hr />
-            <p class="text-center">Page created by Firstname Lastname. &copy; 2020.</p>
+            <p class="text-center mt-3">Page created by Firstname Lastname. &copy; 2020.</p>
         </div>
     </footer>
 
