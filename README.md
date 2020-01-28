@@ -33,7 +33,7 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 
 ## How to make your portfolio better
 
-- Change colors
+- Change colors (look into adding a Bootswatch theme, or try visiting coolors.co to pick a color scheme)
 - Add links
 - Add work experience
 - Add links to your projects
