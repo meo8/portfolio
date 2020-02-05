@@ -1,0 +1,34 @@
+body {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+}
+
+#whatIKnow {
+  border-left: 1px solid rgba(0,0,0,.125);
+  padding: 20px 30px;
+}
+
+#myLinks {
+  max-width:450px;
+}
+
+.navbar {
+  background-color: #AFD5AA;
+}
+
+.background {
+  width: 100%;
+  background-color: #F0F2EF;
+}
+
+/* media queries */
+@media screen and (max-width:767px) {
+  #whatIKnow {
+    border-left: none;
+    padding: 15px;
+    border-top: 1px solid rgba(0,0,0,.125);
+  }
+}

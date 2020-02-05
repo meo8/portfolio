@@ -1,0 +1,49 @@
+body {
+  background-color: #fff3e6;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+footer {
+  background-color: #fff3e6;
+}
+
+#myImage img {
+  height: auto;
+  width: 80%;
+  box-shadow: -3px 1px 20px silver;
+  border-radius: 10px;
+}
+
+#myLinks {
+  max-width:450px;
+}
+
+.logo-mark {
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #f0b97d;
+  height: 4.5rem;
+  font-size: 1.2rem;
+}
+
+.background {
+  width: 100%;
+  background-color: #fff3e6;
+}
+
+.list-group-item, .list-group-item.disabled {
+  background-color: #fff3e6;
+}
+
+.list-group-item.active {
+  background-color: #a2a2a2;
+}
+
+a.list-group-item.list-group-item-action:hover {
+  color: #6ea268;
+}
