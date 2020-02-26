@@ -1,0 +1,50 @@
+body {
+  background-color: #fff3e6;
+}
+
+footer {
+  background-color: #fff3e6;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+a.list-group-item.list-group-item-action:hover {
+  color: #f0b97d;
+}
+
+.navbar {
+  background-color: #f0b97d;
+  height: 4.5rem;
+  font-size: 1.2rem;
+}
+
+.list-group-item.active {
+  background-color: #a2a2a2;
+}
+
+.list-group-item, .list-group-item.disabled {
+  background-color: #fff3e6;
+}
+
+.background {
+  width: 100%;
+  background-color: #fff3e6;
+}
+
+#myLinks {
+  max-width: 443px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  #myLinks {
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #myLinks {
+    max-width: 270px;
+  }
+}
