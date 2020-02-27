@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #fff3e6;
 }
 
 body {
@@ -12,18 +11,26 @@ header {
   width: 100vw;
   height: 100vh;
   border-style: solid;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+main {
+
 }
 
 footer {
   background-color: #fff3e6;
 }
 
-main {
-  margin: 2rem 0;
-}
-
 a.list-group-item.list-group-item-action:hover {
   color: #f0b97d;
+}
+
+#home-icon {
+  font-size: 50px;
+
 }
 
 .navbar {

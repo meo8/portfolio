@@ -13,40 +13,39 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <!-- See: https://getbootstrap.com/docs/4.0/components/navbar/-->
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
+    <!-- See: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
 
-          <a href="https://github.com/meo8" target="_blank"><img class="logo-mark" src="assets/images/github.png" alt="">
-          </a>
+        <a href="https://github.com/meo8" target="_blank"><img class="logo-mark" src="assets/images/github.png" alt="">
+        </a>
 
-          <a href="https://linkedin.com/in/meoh" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
+        <a href="https://linkedin.com/in/meoh" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
 
-          <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
+        <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
 
-          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav ml-auto mt-lg-0">
-              <!-- In each list item (li) is where your links go -->
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html" disabled>Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-lg-0">
+            <!-- In each list item (li) is where your links go -->
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" disabled>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-
+      </div>
+    </nav>
+    <header>
       <h1>MEO HUYNH</h1>
       <h2>Full Stack Developer</h2>
-      <a href="#" id="home-icon"></a>
+      <a href="#intro" id="home-icon">▼</a>
     </header>
 
     <div class="background">
@@ -71,7 +70,7 @@
         </div>
         <!-- This column takes up 50% of the page:
         Note: Columns in a row need to add up to 12! -->
-        <div class="col-md-6 col-sm-12 mt-3">
+        <main id="intro" class="col-md-6 col-sm-12 mt-3">
           <!-- <Header> tags are like <div> tags, but tell google what kind of content is inside. This is called Semantic HTML. Only 1 header tag per page. -->
           <h1>Welcome to My Portfolio!</h1>
           <div id="aboutMe">
@@ -84,7 +83,7 @@
             <h3>My Projects</h3>
             <p class="myText">Nothing to see here...yet!</p>
           </div>
-        </div>
+        </main>
       </div>
     </div>
     <!-- This is a <footer> tag which is another semantic HTML tag that tells google that the content inside is the last part of the website layout. We add a class of mt-3 which stands for margin-top, and how far from the top we put the margin. This number can go from 1-5. --->
