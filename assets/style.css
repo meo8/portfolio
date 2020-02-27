@@ -4,17 +4,18 @@
 }
 
 body {
-  background-color: #fff3e6;
+  /* background-color: #fff3e6; */
 }
 
 header {
   width: 100vw;
   height: 100vh;
-  border-style: solid;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  background: rgb(159,209,180);
+  background: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 100%);
 }
 
 main {
@@ -22,24 +23,39 @@ main {
 }
 
 footer {
-  background-color: #fff3e6;
+  /* background-color: #fff3e6; */
 }
 
 a.list-group-item.list-group-item-action:hover {
-  color: #f0b97d;
+  /* color: #f0b97d; */
 }
 
 #home-icon {
-  font-size: 50px;
   position: absolute;
+  font-size: 55px;
+  color: cadetblue;
   bottom: 5px;
+  animation: bounce 6s infinite;
+}
 
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+   20% {transform: translateY(-10px);}
+   100% {transform: translateY(0);}
 }
 
 .navbar {
-  background-color: #f0b97d;
-  height: 4.5rem;
-  font-size: 1.2rem;
+  /* background-color: #f0b97d; */
+  background-color: rgba(159,209,195,1);
+  padding-top: 20px;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.nav-item {
+  box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.25);
+  text-align: center;
+  padding: 0 15px;
 }
 
 .list-group-item.active {
@@ -47,12 +63,12 @@ a.list-group-item.list-group-item-action:hover {
 }
 
 .list-group-item, .list-group-item.disabled {
-  background-color: #fff3e6;
+  /* background-color: #fff3e6; */
 }
 
 .background {
   width: 80%;
-  background-color: #fff3e6;
+  /* background-color: #fff3e6; */
   margin: 5% auto;
   height: 100vh;
 }
