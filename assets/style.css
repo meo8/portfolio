@@ -29,8 +29,10 @@ a.list-group-item.list-group-item-action:hover {
 }
 
 .background {
-  width: 100%;
+  width: 80%;
   background-color: #fff3e6;
+  margin: 5% auto;
+  height: 100vh;
 }
 
 #myLinks {
