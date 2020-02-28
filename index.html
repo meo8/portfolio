@@ -19,7 +19,7 @@
   <body>
     <!-- See: https://getbootstrap.com/docs/4.0/components/navbar/-->
     <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container">
+      <div class="container" id="buttonContainer">
 
         <a href="https://github.com/meo8" target="_blank"><img class="logo-mark" src="assets/images/github.png" alt="">
         </a>
@@ -49,33 +49,37 @@
     <header>
       <h1 id="full-name">MEO HUYNH</h1>
       <h2 id="sub-title">Full Stack Developer</h2>
-      <a href="#intro" id="home-icon">▼</a>
+      <a href="#background" id="homeIcon">▼</a>
     </header>
 
-    <div class="background">
+
+    <!-- Contains the lower half of the page -->
+    <a href="#" id="intro"></a>
+    <div id="background">
       <!-- The container contains the grid, which is where you will want to place all of your body content. The grid has 12 columns per row. One full row of content is 12 columns. 2 content columns are 6 each. 4 content columns are 3 per. And 6 content columns are 2 each. See: https://getbootstrap.com/docs/4.0/layout/overview/ -->
       <div class="row">
         <!-- This column takes up 50% of the page-->
         <div class="col-md-6 col-sm-12 mt-3 mb-3">
           <div id="myImage">
-            <!-- This is an image tag. Add a description of your image to the alt tag so that Google know what the image is. -->
             <img src="assets/images/portrait.JPG" alt="Meo Huynh Profile Image" >
           </div>
           <div id="myLinks">
-            <!-- This is a list group. Even though we are not using <ol>, <ul>, or <li> we can still create a list group using classes. See: https://getbootstrap.com/docs/4.0/components/list-group/-->
+            <!-- See: https://getbootstrap.com/docs/4.0/components/list-group/ -->
             <div class="list-group list-group-flush mt-2">
               <!-- These are list items. -->
               <a href="https://github.com/meo8" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/github.png" alt="">github.com/meo8
               </a>
+
               <a href="https://linkedin.com/in/yourName" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/linkedin.png" alt="">linkedin.com/in/meoh</a>
+
               <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/gmail.svg" alt="">mhuynh828@gmail.com</a>
             </div>
           </div>
         </div>
+
         <!-- This column takes up 50% of the page:
         Note: Columns in a row need to add up to 12! -->
-        <main id="intro" class="col-md-6 col-sm-12 mt-3">
-          <!-- <Header> tags are like <div> tags, but tell google what kind of content is inside. This is called Semantic HTML. Only 1 header tag per page. -->
+        <main class="col-md-6 col-sm-12 mt-3">
           <h1>Welcome to My Portfolio!</h1>
           <div id="aboutMe">
             <!-- Heading tags, or <H#> tags, are not the same as <Header>. They go from H1-H6 in order of what is important on your page. Typically, you will have 1 <h1> tag on a page, and multiple h2-h6 tags depending on your content. -->
@@ -97,5 +101,6 @@
         <p class="text-center mt-3">Page created by Meo Huynh. &copy; 2020.</p>
       </div>
     </footer>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
