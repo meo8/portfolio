@@ -19,16 +19,18 @@ header {
 
 }
 
-main {
-
-}
-
 footer {
   /* background-color: #fff3e6; */
 }
 
 a.list-group-item.list-group-item-action:hover {
   /* color: #f0b97d; */
+}
+
+#background {
+  width: 80%;
+  margin: 5% auto;
+  height: 100vh;
 }
 
 #full-name {
@@ -45,7 +47,12 @@ a.list-group-item.list-group-item-action:hover {
   font-weight: 200;
 }
 
-#home-icon {
+#buttonContainer {
+  letter-spacing: 2px;
+  min-width: 90%;
+}
+
+#homeIcon {
   position: absolute;
   font-size: 55px;
   color: cadetblue;
@@ -61,9 +68,9 @@ a.list-group-item.list-group-item-action:hover {
 
 .navbar {
   background-color: rgba(159,209,195,1);
-  padding-top: 20px;
+  padding-top: 25px;
   height: 3rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Poiret One';
 }
 
@@ -78,12 +85,7 @@ a.list-group-item.list-group-item-action:hover {
 }
 
 .list-group-item, .list-group-item.disabled {
-}
 
-.background {
-  width: 80%;
-  margin: 5% auto;
-  height: 100vh;
 }
 
 #myLinks {
