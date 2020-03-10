@@ -9,8 +9,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/style.css">
       <link rel="stylesheet" href="assets/index.css">
-      <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One|Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -47,8 +46,8 @@
       </div>
     </nav>
     <header>
-      <h1 id="full-name">MEO HUYNH</h1>
-      <h2 id="sub-title">Full Stack Developer</h2>
+      <h1 id="fullName">MEO HUYNH</h1>
+      <h2 id="subTitle">Full Stack Developer</h2>
       <a href="#background" id="homeIcon">▼</a>
     </header>
 
@@ -59,48 +58,55 @@
       <!-- The container contains the grid, which is where you will want to place all of your body content. The grid has 12 columns per row. One full row of content is 12 columns. 2 content columns are 6 each. 4 content columns are 3 per. And 6 content columns are 2 each. See: https://getbootstrap.com/docs/4.0/layout/overview/ -->
       <div class="row">
         <!-- This column takes up 50% of the page-->
-        <div class="col-md-6 col-sm-12 mt-3 mb-3">
+        <div class="col-md-5 col-sm-12 mt-3 mb-3">
           <div id="myImage">
             <img src="assets/images/portrait.JPG" alt="Meo Huynh Profile Image" >
           </div>
-          <div id="myLinks">
-            <!-- See: https://getbootstrap.com/docs/4.0/components/list-group/ -->
-            <div class="list-group list-group-flush mt-2">
-              <!-- These are list items. -->
-              <a href="https://github.com/meo8" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/github.png" alt="">github.com/meo8
-              </a>
 
-              <a href="https://linkedin.com/in/yourName" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/linkedin.png" alt="">linkedin.com/in/meoh</a>
 
-              <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/gmail.svg" alt="">mhuynh828@gmail.com</a>
-            </div>
-          </div>
+
+
+
         </div>
 
         <!-- This column takes up 50% of the page:
         Note: Columns in a row need to add up to 12! -->
-        <main class="col-md-6 col-sm-12 mt-3">
-          <h1>Welcome to My Portfolio!</h1>
+        <main class="col-md-7 col-sm-12 mt-3">
           <div id="aboutMe">
+            <h1>HI, I'M MEO.</h1>
             <!-- Heading tags, or <H#> tags, are not the same as <Header>. They go from H1-H6 in order of what is important on your page. Typically, you will have 1 <h1> tag on a page, and multiple h2-h6 tags depending on your content. -->
             <h3>About Me</h3>
             <!-- The <p> tag is used to designate paragraphs of text -->
             <p class="myText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sapien eros, ultrices sed diam scelerisque, viverra porta sapien. Cras sit amet sagittis felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras mi augue, dictum in leo ut, fringilla mollis quam.
+                Computers always fascinated me with its endless possibilities. As a current student of LEARN Academy, I strive to be a better problem solver.
             </p>
             <h3>My Projects</h3>
-            <p class="myText">Nothing to see here...yet!</p>
+            <p class="myText">To see projects, <a href=work.html>click here!</a></p>
           </div>
         </main>
+
       </div>
     </div>
     <!-- This is a <footer> tag which is another semantic HTML tag that tells google that the content inside is the last part of the website layout. We add a class of mt-3 which stands for margin-top, and how far from the top we put the margin. This number can go from 1-5. --->
     <footer>
-      <div id="footerContent">
-        <!-- This is a horizontal rule. It creates a line that spans across the whole page -->
+      <div id="footerContent" class="col-md-4 col-sm-12 mt-3">
+        <div id="myLinks">
+          <!-- See: https://getbootstrap.com/docs/4.0/components/list-group/ -->
+          <div class="list-group list-group-flush mt-2">
+            <!-- These are list items. -->
+            <a href="https://github.com/meo8" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/github.png" alt="">github.com/meo8
+            </a>
+
+            <a href="https://linkedin.com/in/yourName" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/linkedin.png" alt="">linkedin.com/in/meoh</a>
+
+            <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action"><img class="logo-mark" src="assets/images/gmail.svg" alt="">mhuynh828@gmail.com</a>
+          </div>
+        </div>
+
         <p class="text-center mt-3">Page created by Meo Huynh. &copy; 2020.</p>
       </div>
     </footer>
+
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

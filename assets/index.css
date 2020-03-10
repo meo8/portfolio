@@ -1,12 +1,89 @@
+footer > #footerContent {
+  height: 100%;
+  width: 100%;
+}
+
+footer > #footerContent > p{
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.55;
+  letter-spacing: 1px;
+}
+
+#aboutMe {
+  margin-top: 12%;
+}
+
+#background {
+  width: 80%;
+  margin: 3% auto;
+  height: 100vh;
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: lighter;
+}
+
+#buttonContainer {
+  letter-spacing: 2px;
+  min-width: 90%;
+}
+
+#fullName {
+  font-family: 'Poiret One';
+  font-size: 60px;
+  letter-spacing: 15px;
+  line-height: 70px;
+}
+
+#subTitle {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#homeIcon {
+  position: absolute;
+  font-size: 55px;
+  color: cadetblue;
+  bottom: 5px;
+  animation: bounce 7s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-5px);}
+}
+
+#aboutMe > h1 {
+  font-size: 3.5rem;
+  margin: 30px 0;
+}
+
+#aboutMe > h3 {
+  font-size: 2.10rem;
+}
+
 #myImage img {
   height: auto;
-  width: 80%;
+  width: 70%;
   box-shadow: -3px 1px 20px silver;
-  border-radius: 50px;
+  border-radius: 30%;
   margin-bottom: 1rem;
 }
 
 .logo-mark {
   margin-right: 18px;
   width: 25px;
+}
+
+.myText > a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.myText > a:hover {
+  color: darkslategray;
+  font-weight: bolder;
 }
