@@ -1,10 +1,16 @@
 footer > #footerContent {
   height: 100%;
   width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer > #footerContent > p{
   font-size: 1rem;
+  text-align: center;
 }
 
 p {
@@ -16,11 +22,19 @@ p {
   margin-top: 12%;
 }
 
+#aboutMe > h1 {
+  font-size: 3.5rem;
+  margin: 30px 0;
+}
+
+#aboutMe > h3 {
+  font-size: 2.10rem;
+}
+
 #background {
   width: 80%;
   margin: 3% auto;
   height: 100vh;
-  font-family: 'Sulphur Point', sans-serif;
   font-weight: lighter;
 }
 
@@ -34,12 +48,6 @@ p {
   font-size: 60px;
   letter-spacing: 15px;
   line-height: 70px;
-}
-
-#subTitle {
-  font-size: 22px;
-  letter-spacing: 3px;
-  font-weight: 200;
 }
 
 #homeIcon {
@@ -56,13 +64,13 @@ p {
   60% {transform: translateY(-5px);}
 }
 
-#aboutMe > h1 {
-  font-size: 3.5rem;
-  margin: 30px 0;
-}
-
-#aboutMe > h3 {
-  font-size: 2.10rem;
+#logoContainer {
+  width: 100vw;
+  height: 19vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #myImage img {
@@ -73,9 +81,20 @@ p {
   margin-bottom: 1rem;
 }
 
+#subTitle {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+#footerContent > .logo-mark {
+  margin: 0 25px;
+  width: 50px;
+}
+
 .logo-mark {
-  margin-right: 18px;
-  width: 25px;
+  margin-right: 25px;
+  width: 30px;
 }
 
 .myText > a {
