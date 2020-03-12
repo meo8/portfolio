@@ -1,16 +1,20 @@
-footer > #footerContent {
-  height: 100%;
-  width: 100%;
-  padding: 32px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+footer > h3 {
+  margin: 0 auto;
 }
 
-footer > #footerContent > p {
-  font-size: 1rem;
-  text-align: center;
+footer > #logoContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0;
+}
+
+footer .logo-mark {
+  margin: 0.5em 2em;
+  width: 35px;
 }
 
 hr {
@@ -18,17 +22,12 @@ hr {
   margin-bottom: 3rem;
 }
 
-p {
-  line-height: 1.55;
-  letter-spacing: 1px;
-}
-
-section {
+main {
   display: flex;
   justify-content: center;
 }
 
-section > div {
+main > div {
   margin-bottom: 10%;
 }
 
@@ -37,12 +36,12 @@ section > div {
 }
 
 #aboutMe > h1 {
-  font-size: 3.5rem;
+  font-size: 2.5em;
   margin: 30px 0;
 }
 
 #aboutMe > h3 {
-  font-size: 2.10rem;
+  font-size: 1.10em;
 }
 
 #background {
@@ -52,19 +51,9 @@ section > div {
   font-weight: lighter;
 }
 
-#buttonContainer {
-  letter-spacing: 2px;
-  min-width: 90%;
-}
-
-#footerContent > .logo-mark {
-  margin: 0 25px;
-  width: 50px;
-}
-
 #fullName {
   font-family: 'Poiret One', serif;
-  font-size: 3rem;
+  font-size: 2em;
   letter-spacing: 15px;
   line-height: 70px;
   text-align: center;
@@ -72,7 +61,7 @@ section > div {
 
 #homeIcon {
   position: absolute;
-  font-size: 3rem;
+  font-size: 2em;
   color: cadetblue;
   bottom: 5px;
   animation: bounce 7s infinite;
@@ -84,13 +73,9 @@ section > div {
   60% {transform: translateY(-5px);}
 }
 
-#logoContainer {
-  width: 100vw;
-  height: 19vh;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+#iconContainer {
+  letter-spacing: 2px;
+  min-width: 90%;
 }
 
 #myImage {
@@ -121,16 +106,27 @@ section > div {
 #techStack {
   width: 98%;
   height: 100%;
-  padding: 30px;
+  margin: 10% 0;
+  padding: 2%;
   box-shadow: 0px 1px 20px 8px #EEEAE9;
 }
 
 #techStack > h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5em;
   letter-spacing: 3px;
   font-weight: lighter;
-  margin: 10px;
+  margin: 0.5em;
+}
+
+.myText > a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.myText > a:hover {
+  color: darkslategray;
+  font-weight: bolder;
 }
 
 .stackDescription {
@@ -142,19 +138,4 @@ section > div {
   width: 100px;
   height: 100px;
   margin: 0 35px 35px 35px;
-}
-
-.logo-mark {
-  margin-right: 25px;
-  width: 30px;
-}
-
-.myText > a {
-  text-decoration: none;
-  color: darkcyan;
-}
-
-.myText > a:hover {
-  color: darkslategray;
-  font-weight: bolder;
 }
