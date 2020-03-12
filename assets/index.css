@@ -169,11 +169,26 @@ main > div {
 
 
 @media screen and (max-width: 420px) {
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
   #myImage {
     text-align: center;
   }
 
   #aboutMe > h1 {
     font-size: 2.28em;
+  }
+
+  .stackDescription > p {
+    margin-bottom: 0.1rem;
+  }
+
+  .stackIcon {
+    width: 75px;
+    height: 75px;
+    margin: 0 0.75em 1.65em 0.75em;
   }
 }
