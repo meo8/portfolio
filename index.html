@@ -53,12 +53,13 @@
 
 
     <!-- Contains the lower half of the page -->
-    <a href="#" id="intro"></a>
+    <span id="intro"></span>
     <div id="background">
       <!-- The container contains the grid, which is where you will want to place all of your body content. The grid has 12 columns per row. One full row of content is 12 columns. 2 content columns are 6 each. 4 content columns are 3 per. And 6 content columns are 2 each. See: https://getbootstrap.com/docs/4.0/layout/overview/ -->
-      <div class="row">
+      <section class="row">
         <!-- This column takes up 50% of the page-->
-        <div class="col-md-5 col-sm-12 mt-3 mb-3">
+        <!--  mt-3 mb-3 -->
+        <div class="col-md-5 col-sm-12">
           <div id="myImage">
             <img src="assets/images/portrait.JPG" alt="Meo Huynh Profile Image" >
           </div>
@@ -73,9 +74,9 @@
         Note: Columns in a row need to add up to 12! -->
         <main class="col-md-7 col-sm-12 mt-3">
           <div id="aboutMe">
-            <h1>HI, I'M MEO.</h1>
+            <h1>WHO'S THIS GIRL?</h1>
             <!-- Heading tags, or <H#> tags, are not the same as <Header>. They go from H1-H6 in order of what is important on your page. Typically, you will have 1 <h1> tag on a page, and multiple h2-h6 tags depending on your content. -->
-            <h3>About Me</h3>
+            <h3>Hi, I'm Meo</h3>
             <!-- The <p> tag is used to designate paragraphs of text -->
             <p class="myText">
                 Computers always fascinated me with its endless possibilities. As a current student of LEARN Academy, I strive to be a better problem solver.
@@ -85,7 +86,86 @@
           </div>
         </main>
 
-      </div>
+
+        <div id="techStack">
+          <h2>Techology Stack</h2>
+          <hr>
+          <div id="stackContainer">
+            <div class="stackDescription">
+              <p>HTML5</p>
+              <img class="stackIcon" src="assets/images/tech-stack/html.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>CSS3</p>
+              <img class="stackIcon" src="assets/images/tech-stack/css.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>JavaScript</p>
+              <img class="stackIcon" src="assets/images/tech-stack/js.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>React</p>
+              <img class="stackIcon" src="assets/images/tech-stack/react.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Bootstrap</p>
+              <img class="stackIcon" src="assets/images/tech-stack/bootstrap.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Ruby</p>
+              <img class="stackIcon" src="assets/images/tech-stack/ruby.png" alt="">
+
+            </div>
+
+            <div class="stackDescription">
+              <p>Rails</p>
+              <img class="stackIcon" src="assets/images/tech-stack/rails.png" alt="">
+
+            </div>
+
+            <div class="stackDescription">
+              <p>PostgreSQL</p>
+              <img class="stackIcon" src="assets/images/tech-stack/postgresql.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p></p>
+            </div>
+
+            <div class="stackDescription">
+              <p></p>
+            </div>
+
+            <div class="stackDescription">
+              <p>Jest</p>
+              <img class="stackIcon" src="assets/images/tech-stack/jestjs.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Rspec</p>
+              <img class="stackIcon" src="assets/images/tech-stack/rspec.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Git</p>
+              <img class="stackIcon" src="assets/images/tech-stack/git.png" alt="">
+            </div>
+
+            <div class="stackDescription">
+              <p>Github</p>
+              <img class="stackIcon" src="assets/images/tech-stack/github.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
     </div>
     <!-- This is a <footer> tag which is another semantic HTML tag that tells google that the content inside is the last part of the website layout. We add a class of mt-3 which stands for margin-top, and how far from the top we put the margin. This number can go from 1-5. --->
     <footer>
