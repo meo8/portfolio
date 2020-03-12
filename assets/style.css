@@ -12,6 +12,20 @@ body {
   body {
     font-size: 106%;
   }
+
+  .nav-item {
+    width: 100% !important;
+    margin-top: 10px !important;
+    border-radius: 0 !important;
+  }
+
+  .navbar-light .navbar-nav .active >.nav-link {
+    border-radius: 0 !important;
+  }
+
+  footer {
+    padding-top: 1.25rem !important;
+  }
 }
 
 footer {
