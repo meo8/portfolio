@@ -13,6 +13,14 @@ body {
     font-size: 106%;
   }
 
+  footer {
+    padding-top: 1.25rem !important;
+  }
+
+  a > .logo-mark {
+    visibility: hidden;
+  }
+
   .nav-item {
     width: 100% !important;
     margin-top: 10px !important;
@@ -23,9 +31,7 @@ body {
     border-radius: 0 !important;
   }
 
-  footer {
-    padding-top: 1.25rem !important;
-  }
+
 }
 
 footer {
