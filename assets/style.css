@@ -8,7 +8,7 @@ body {
   font-size: 120%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 420px) {
   body {
     font-size: 106%;
   }
