@@ -8,7 +8,7 @@ body {
   font-size: 120%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 575.98px) {
   body {
     font-size: 106%;
   }
@@ -17,21 +17,16 @@ body {
     padding-top: 1.25rem !important;
   }
 
-  a > .logo-mark {
-    visibility: hidden;
-  }
-
   .nav-item {
     width: 100% !important;
     margin-top: 10px !important;
     border-radius: 0 !important;
+    font-size: 1em !important;
   }
 
-  .navbar-light .navbar-nav .active >.nav-link {
+  .navbar-light .navbar-nav .active > .nav-link {
     border-radius: 0 !important;
   }
-
-
 }
 
 footer {

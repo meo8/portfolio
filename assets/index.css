@@ -168,18 +168,26 @@ main > div {
  */
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 575.98px) {
+  a > .logo-mark {
+    visibility: hidden;
+  }
+
   hr {
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+
+  #aboutMe > h1 {
+    font-size: 2.28em;
   }
 
   #myImage {
     text-align: center;
   }
 
-  #aboutMe > h1 {
-    font-size: 2.28em;
+  #homeIcon {
+    visibility: hidden;
   }
 
   .stackDescription > p {
