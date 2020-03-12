@@ -13,35 +13,38 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <!-- This is your navigation bar. See: https://getbootstrap.com/docs/4.0/components/navbar/-->
+  <body>
     <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <!-- Here is where you will add your name -->
-            <a class="navbar-brand" href="#">Meo Huynh</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto mt-lg-0">
-                    <!-- In each list item (li) is where your links go -->
-                    <li class="nav-item">
-                        <!-- This is a link -->
-                        <a class="nav-link" href="index.html">Home </a>
-                    </li>
-                    <li class="nav-item active">
-                        <!-- This is a link -->
-                        <a class="nav-link" href="work.html" disabled>Work <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <!-- This is a link -->
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container" id="navContainer">
+
+        <a href="https://github.com/meo8" target="_blank"><img class="logo-mark" src="assets/images/github.png" alt="">
+        </a>
+
+        <a href="https://linkedin.com/in/meoh" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
+
+        <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-lg-0">
+            <!-- In each list item (li) is where your links go -->
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" disabled>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
+
+
     <div class="background">
         <!-- The container contains all of your body content -->
         <main class="container">
@@ -131,11 +134,22 @@
             </div>
         </main>
     </div>
-    <footer class="footer">
-        <div id="footerContent">
-            <!-- This is a horizontal rule. It creates a line that spans across the whole page -->
-            <p class="text-center mt-3">Page created by Meo Huynh. &copy; 2020.</p>
+
+
+
+
+    <footer>
+      <h3>Connect with me!</h3>
+        <div id="logoContainer">
+          <!-- These are list items. -->
+          <a href="https://github.com/meo8"><img class="logo-mark" src="assets/images/github.png" alt=""></a>
+
+          <a href="https://linkedin.com/in/yourName" target="_blank"><img class="logo-mark" src="assets/images/linkedin.png" alt=""></a>
+
+          <a href="mailto:mhuynh828@gmail.com.tld?subject=Coming From Your Website" target="_blank"><img class="logo-mark" src="assets/images/gmail.svg" alt=""></a>
         </div>
+
+      <p>Page created by Meo Huynh. &copy; 2020.</p>
     </footer>
-</body>
+  </body>
 </html>
