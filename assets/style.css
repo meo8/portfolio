@@ -8,6 +8,12 @@ body {
   font-size: 120%;
 }
 
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 106%;
+  }
+}
+
 footer {
   background-color: #f2f2f2;
   height: 100%;
