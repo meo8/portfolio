@@ -21,10 +21,6 @@ body {
     height: 83vh !important;
   }
 
-  .navbar {
-    padding-top: 4em !important;
-  }
-
   .nav-item {
     width: 100% !important;
     margin-top: 10px !important;
