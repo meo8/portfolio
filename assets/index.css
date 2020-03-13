@@ -163,10 +163,6 @@ main > div {
 
 
 @media screen and (max-width: 575.98px) {
-  nav .logo-mark {
-    visibility: hidden;
-  }
-
   hr {
     margin-top: 1rem;
     margin-bottom: 2rem;

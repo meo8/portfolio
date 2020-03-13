@@ -52,7 +52,6 @@ header {
   align-items: center;
   background: rgb(159,209,180);
   background: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 65%);
-
 }
 
 p {
@@ -63,6 +62,7 @@ p {
 .navbar {
   background-color: rgba(159,209,195,1);
   padding-top: 1em;
+  z-index: 8;
 }
 
 nav .logo-mark {
@@ -148,6 +148,10 @@ a.list-group-item.list-group-item-action:hover {
 
   header {
     height: 83vh !important;
+  }
+
+  nav .logo-mark {
+    visibility: hidden;
   }
 
   .nav-item {
