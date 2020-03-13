@@ -1,0 +1,60 @@
+article ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0 3rem;
+}
+
+body {
+  background: rgb(159,209,180);
+  background: linear-gradient(0deg, rgba(159,209,180,0) 0%, rgba(159,209,195,1) 65%);
+}
+
+div.container {
+
+}
+
+footer > p {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  margin: 4.5rem 0;
+  padding: 3rem 4rem;
+  border-radius: 1%;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.4) 100%);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#education {
+  width: 100%;
+}
+
+#education article, p {
+  letter-spacing: 0px !important;
+}
+
+
+#info {
+  width: 45%;
+}
+
+#info h1 {
+  font-family: 'Poiret One', serif;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  align-items: end;
+}
