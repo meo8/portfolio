@@ -17,19 +17,23 @@ footer > p {
   margin-bottom: 1rem;
 }
 
-p {
-  margin: 0;
-}
-
 main {
   margin: 4.5rem 0;
-  padding: 3rem 4rem;
+  padding: 3rem 3rem;
   border-radius: 1%;
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.4) 100%);
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  width: 100%;
 }
 
 #education {
@@ -42,7 +46,7 @@ main {
 
 
 #info {
-  width: 45%;
+  width: 40%;
 }
 
 #info h1 {
@@ -51,10 +55,18 @@ main {
   text-align: center;
 }
 
+#skills {
+  width: 58%;
+}
+
 .heading {
   width: 100%;
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: space-between;
   align-items: end;
+}
+
+.list-group-item-light {
+  background-color: rgba(253, 253, 254, 0.1);
 }
