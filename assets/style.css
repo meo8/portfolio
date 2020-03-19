@@ -62,9 +62,13 @@ p {
   letter-spacing: 1px;
 }
 
+section > p {
+  text-align: center;
+}
+
 .navbar {
   background-color: rgba(159,209,195,1);
-  padding-top: 1em;
+  padding-top: 0.75em;
   z-index: 8;
 }
 
